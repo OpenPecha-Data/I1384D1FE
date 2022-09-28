@@ -9,16 +9,15 @@ ocr_import_info:
   batch_id: batch001
   software_id: vision
   expected_default_language: bo
-  parser_link: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
   op_import_options: {}
   op_import_version: 1.0.0
 default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2022-09-28T07:25:03.607157+00:00'
-last_modified: 2022-09-28 12:55:50.892868
-parser: null
+imported: '2022-08-30T10:35:34.176872+00:00'
+last_modified: 2022-08-30 18:37:08.985466
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W00EGS1016246
   status: http://purl.bdrc.io/admindata/StatusReleased
@@ -26,25 +25,11 @@ source_metadata:
   reproduction_of: http://purl.bdrc.io/resource/MW00EGS1016246
   copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
   title: བཀྲས་ལྷུན་རྒྱུད་པ་གྲྭ་ཚང་གི་ཆོས་སྤྱོད།
-  languages:
-  - bo
 statistics:
   ocr_word_mean_confidence_index: 0.6230962133851753
   ocr_word_median_confidence_index: 0.6800000071525574
 quality: null
 bases:
-  I00JW501124:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I00JW501124
-      total_pages: 606
-      volume_number: 2
-      volume_pages_bdrc_intro: 2
-    order: 2
-    base_file: I00JW501124.txt
-    statistics:
-      ocr_word_median_confidence_index: 0.6000000238418579
-      ocr_word_mean_confidence_index: 0.5711879893049362
-    legacy_id: v002
   I00JW501123:
     source_metadata:
       id: http://purl.bdrc.io/resource/I00JW501123
@@ -57,6 +42,18 @@ bases:
       ocr_word_median_confidence_index: 0.7400000095367432
       ocr_word_mean_confidence_index: 0.6701708662132584
     legacy_id: v001
+  I00JW501124:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I00JW501124
+      total_pages: 606
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I00JW501124.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6000000238418579
+      ocr_word_mean_confidence_index: 0.5711879893049362
+    legacy_id: v002
   I00JW501125:
     source_metadata:
       id: http://purl.bdrc.io/resource/I00JW501125
